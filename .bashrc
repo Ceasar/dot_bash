@@ -1,6 +1,6 @@
-# Source file for interactive non-login (local) shells
 
-source ~/.rc.sh
+# Try to source file for generic interactive non-login (local) shells
+test -f ~/.rc.sh && source ~/.rc.sh
 
 # Modify the bashrc from anywhere
 alias bashrc='vim ~/.bashrc; source ~/.bashrc'
