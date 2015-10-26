@@ -65,11 +65,11 @@ TIME="\t"
 USERNAME="\u"
 HOSTNAME="\h"
 PROMPT="\$"
-PWD="\w"
+CWD="\w"
 # Required to get  __git_ps1 variable
 source ~/.bash_git
 BRANCH="\$(__git_ps1)"
-PS1="$YELLOW$BRANCH $CYAN$PWD$PROMPT$NONE "
+PS1="$YELLOW$BRANCH $CYAN$CWD$PROMPT$NONE "
 
 
 # Set up git autocompletion
